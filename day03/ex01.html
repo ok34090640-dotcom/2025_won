@@ -14,17 +14,26 @@
     </div>
 
     <script>
-        var inpNum1=document.getElementById("inp-num1")
-        var inpNum2=document.getElementById("inp-num2")
-        var inpResult=document.getElementById("inp-Result")
+    
+    var inpNum1=document.getElementById("inp-num1");
+    var inpNum2=document.getElementById("inp-num2");
+    var inpResult=document.getElementById("inp-result");
 
-        var btnSubmit=document.getElementById("btn-submit")
-       btnSubmit.addEventListener('click', ()=>{
+    var btnSubmit=document.getElementById("btn-submit");
+
+    btnSubmit.addEventListener('click', ()=>{
+     
         var num1=inpNum1.value;
         var num2=inpNum2.value;
-        var result=num1+num2;
-        console.log(result)
-       })
+
+     
+        var result = parseInt(num1) + parseInt(num2); 
+
+
+        inpResult.value = result; 
+        console.log(result);
+    })
+</script>
  </script>
 </body>
 </html>
