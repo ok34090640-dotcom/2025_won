@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+body{
+    margin:0px;
+    padding:0px;
+
+}
+
+.box{
+    width:256px;
+    height: 64px;
+    background: blue;
+    color: white;
+    margin:8px;
+}
+
+</style>
+
+</head>
+<body>
+ <div class="box"
+    style="overflow: hidden;">
+    aaaaaaaaaaaaaaaaaaaa bbbbbbbbbbbbbbbb dddddddddddddddddddddd ggggggggggggggggggggg</div>
+
+ <div class="box"
+    style="overflow: scroll;">
+    aaaaaaaaaaaaaaaaaaaa bbbbbbbbbbbbbbbb dddddddddddddddddddddd ggggggggggggggggggggg</div>
+<!-- scroll이나 auto(넘칠 때만 선택해서 적용이 된다.) 다 써도 된다. -->
+    <div class="box"
+    style="overflow: auto;">
+    aaaaaaaaaaaaaaaaaaaa bbbbbbbbbbbbbbbb dddddddddddddddddddddd ggggggggggggggggggggg</div>
+
+     <div class="box"
+     style="word-break: break-all;
+     overflow: auto;"   
+    
+   >  
+    aaaaaaaaaaaaaaaaaaaa bbbbbbbbbbbbbbbb dddddddddddddddddddddd ggggggggggggggggggggg</div>
+
+<div class="box" 
+style="overflow-wrap: break-word;"
+   >  
+    aaaaaaaaaaaaaaaaaaaa bbbbbbbbbbbbbbbb dddddddddddddddddddddd ggggggggggggggggggggg</div>
+
+
+    
+</body>
+</html>
