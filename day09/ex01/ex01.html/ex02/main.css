@@ -1,0 +1,48 @@
+
+
+
+@font-face {
+    font-family: 'NexonMaplestory';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NexonMaplestory';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+
+
+
+body{
+    display: flex;
+       margin: 10px;
+    padding: 244px;
+    background-color: blue;
+    color: white;
+    font-family: 'NexonMaplestory';
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.box-1{
+
+font-size: 64px;
+    background-color: blueviolet;
+    color: lawngreen;
+}
+
+
+.box-2{
+
+font-size: 64px;
+    background-color: blueviolet;
+    color: lawngreen;
+}
