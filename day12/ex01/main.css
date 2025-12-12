@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'NexonMaplestory';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding:0px;
+    background-color: blue;
+    color: white;
+    font-family: 'NexonMaplestory';
+    justify-content: center;
+    flex-direction: column;
+    height:100vh;
+}
+
+/* flex로만 사용하면 점수가 더 높아진다. */
+header{
+    display: flex;
+    background-color: yellow;
+    color:black;
+    padding: 16px;
+   justify-content: flex-end;
+    align-items: flex-end;
+
+}
+main{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+
+display: flex;
+background-color: black;
+padding: 16px;
+
+}
+
+.title-txt{
+font-size:64px;
+}
+
+.menu-item{
+font-size:32px;
+}
+
+.menu-item.select{
+    background-color:darkorange;                                      
+}
+
+.hide{
+    display: none;
+}
+/* hide는 가장 우선적으로 받아야하니 뒤에다 배치 */
